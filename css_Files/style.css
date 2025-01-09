@@ -1,0 +1,118 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background-image: url(../imgs/background.jpg);
+    background-size: cover;
+    color: aliceblue;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+:root{
+    --mainColor:#7ED6DF;
+}
+header{
+    width: 100%;
+    height:fit-content ;
+    margin-top: 25px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  font-size: smaller;
+  margin-top: 10px;
+}
+.signin-up button{
+    font-weight: bold;
+    border: none;
+}
+.signin-up .In{
+    color: white;
+    background-color: transparent;
+    margin-inline: 20px;
+}
+.UP{
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+main{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+}
+main p{
+    text-align: center;
+}
+main h2{
+    text-align: center;
+    font-size:45px;
+    font-weight: 400px;
+}
+main span{
+    background-image: linear-gradient(150deg,#6cc4ff, cyan , rgb(255, 207, 118));
+    background-clip: text;
+    color: transparent;
+}
+main button{
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+.buttons .start{
+    background-color: var(--mainColor);
+    border: none;
+    margin-inline:6px;
+}
+.buttons .Explore{
+    background-color: transparent;
+    color: var(--mainColor);
+    border: 2px solid var(--mainColor);
+}
+.small-rec{
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    background-color: rgba(0, 82, 85, 0.6);
+    border-radius: 5px;
+    padding: 6px 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+.small-rec i{
+    background-image: linear-gradient(var(--mainColor), #0092f4);
+    background-clip: text;
+    color: transparent;
+}
+.sec i{
+    font-size: 30px;
+    background-image: linear-gradient(var(--mainColor), #0092f4);
+    background-clip: text;
+    color: transparent;
+}
+.sections{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.sec{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(0, 53, 54, 0.6);
+    border-radius: 8px;
+    padding: 25px;
+    border: 1px solid rgba(255,255,255,0.2);
+    margin-bottom: 30px;
+}
+.sec p{
+    font-size: smaller;
+}
